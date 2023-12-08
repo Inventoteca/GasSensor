@@ -62,8 +62,8 @@
       35,
       36
     ],
-    "visible_layers": "ffcfcff_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "ffcffff_ffffffff",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "sensor_sigfox_1.1.kicad_prl",
