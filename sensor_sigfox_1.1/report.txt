@@ -1,1 +1,57 @@
-Anotación completada.
+Info: Procesando el símbolo 'C2:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Procesando el símbolo 'U2:Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm'.
+Info: Procesando el símbolo 'U1:Package_DFN_QFN:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm'.
+Info: Procesando el símbolo 'R4:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Procesando el símbolo 'R3:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Procesando el símbolo 'R2:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Procesando el símbolo 'R1:Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder'.
+Info: Procesando el símbolo 'J4:Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical'.
+Info: Procesando el símbolo 'J3:Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork'.
+Info: Procesando el símbolo 'J2:Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical'.
+Info: Procesando el símbolo 'IC1:WSSFM11R2DAT:WSSFM11R2DAT'.
+Info: Procesando el símbolo 'J1:Battery:BatteryHolder_Keystone_2468_2xAAA'.
+Info: Procesando el símbolo 'C3:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Procesando el símbolo 'C1:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Procesando el símbolo 'Y1:Crystal:Crystal_C26-LF_D2.1mm_L6.5mm_Vertical'.
+Info: Procesando el símbolo 'C4:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Procesando el símbolo 'C5:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Procesando el símbolo 'C6:Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder'.
+Info: Procesando el símbolo 'D1:LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder'.
+U1 pin 11 reconectado de /SCL a Net-(U1-PB0).
+U1 pin 12 reconectado de unconnected-(U1-PC0-Pad12) a Net-(U1-PB2).
+U1 pin 13 reconectado de unconnected-(U1-PC1-Pad13) a /SDA.
+U1 pin 14 reconectado de unconnected-(U1-PC2-Pad14) a /SCL.
+Añadir red unconnected-(U1-PC0-Pad15).
+U1 pin 15 reconectado de unconnected-(U1-PC3-Pad15) a unconnected-(U1-PC0-Pad15).
+Añadir red unconnected-(U1-PC1-Pad16).
+U1 pin 16 reconectado de Net-(U1-~{RESET}/PA0) a unconnected-(U1-PC1-Pad16).
+Añadir red unconnected-(U1-PC2-Pad17).
+U1 pin 17 reconectado de /SF_RX a unconnected-(U1-PC2-Pad17).
+Añadir red unconnected-(U1-PC3-Pad18).
+U1 pin 18 reconectado de /SF_TX a unconnected-(U1-PC3-Pad18).
+U1 pin 19 reconectado de unconnected-(U1-PA3-Pad19) a Net-(U1-~{RESET}/PA0).
+U1 pin 20 reconectado de GND a /SF_RX.
+U1 pin 21 conectado a GND.
+Y1 pin 1 reconectado de Net-(U1-PB3) a Net-(U1-PB0).
+U1 pin 5 reconectado de unconnected-(U1-PA7-Pad5) a Net-(U1-PA4).
+Añadir red Net-(U1-PB0).
+C3 pin 2 reconectado de Net-(U1-PB3) a Net-(U1-PB0).
+Huella U1 cambiada de 'Package_DFN_QFN:QFN-24-1EP_3x3mm_P0.4mm_EP1.75x1.6mm_ThermalVias' a 'Package_DFN_QFN:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm'.
+U1 propiedades actualizadas.
+U1 pin 1 reconectado de VCC a /SF_TX.
+Añadir red unconnected-(U1-PA3-Pad2).
+U1 pin 2 reconectado de Net-(U1-PA4) a unconnected-(U1-PA3-Pad2).
+U1 pin 3 reconectado de unconnected-(U1-PA5-Pad3) a GND.
+U1 pin 4 reconectado de Net-(IC1-RST_N) a VCC.
+U1 pin 10 reconectado de /SDA a unconnected-(U1-PB4-Pad10).
+Añadir red unconnected-(U1-PA5-Pad6).
+U1 pin 6 reconectado de unconnected-(U1-PB5-Pad6) a unconnected-(U1-PA5-Pad6).
+U1 pin 7 reconectado de unconnected-(U1-PB4-Pad7) a Net-(IC1-RST_N).
+Añadir red unconnected-(U1-PA7-Pad8).
+U1 pin 8 reconectado de Net-(U1-PB3) a unconnected-(U1-PA7-Pad8).
+Añadir red unconnected-(U1-PB5-Pad9).
+U1 pin 9 reconectado de Net-(U1-PB2) a unconnected-(U1-PB5-Pad9).
+Añadir red unconnected-(U1-PB4-Pad10).
+
+
+Info: Número de avisos: 0, errores: 0.
