@@ -488,7 +488,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../1.1/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "sensor_sigfox_1.1.step",
@@ -608,7 +608,7 @@
   "sheets": [
     [
       "7e4087c3-8cfe-4a56-93d2-ee627c3b6019",
-      ""
+      "Root"
     ]
   ],
   "text_variables": {}
