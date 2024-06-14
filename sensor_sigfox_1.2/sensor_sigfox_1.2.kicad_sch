@@ -377,6 +377,173 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
+				(arc
+					(start -1.778 -0.508)
+					(mid 0.2311 -1.8066)
+					(end 1.778 0)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.778 0)
+					(mid 0.2099 1.8101)
+					(end -1.778 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "In"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -555,6 +722,108 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3207,6 +3476,12 @@
 		(uuid "bdcd1b88-3cd1-4e8f-98bd-c4edb3f80156")
 	)
 	(junction
+		(at 245.11 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c05c82e5-707e-42da-b4d4-711f9cf866ea")
+	)
+	(junction
 		(at 232.41 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3299,16 +3574,6 @@
 			(type default)
 		)
 		(uuid "0d3aff93-db33-4721-bf56-87fea58c8f59")
-	)
-	(wire
-		(pts
-			(xy 138.43 88.9) (xy 138.43 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10f168bd-df91-4caf-8a26-7e9f054db9bb")
 	)
 	(wire
 		(pts
@@ -3482,16 +3747,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 111.76) (xy 162.56 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a46d391-28bb-4134-92cd-be2dc5214529")
-	)
-	(wire
-		(pts
 			(xy 60.96 54.61) (xy 60.96 57.15)
 		)
 		(stroke
@@ -3532,13 +3787,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 91.44) (xy 135.89 104.14)
+			(xy 218.44 86.36) (xy 227.33 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46dba933-612f-4805-ab42-84ccf6ec37ec")
+		(uuid "42cdf975-a2c1-4a8a-935b-3a1825c9cabc")
 	)
 	(wire
 		(pts
@@ -3559,16 +3814,6 @@
 			(type default)
 		)
 		(uuid "4dc1515a-7659-4711-94f0-32da5ba94abe")
-	)
-	(wire
-		(pts
-			(xy 95.25 88.9) (xy 107.95 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dc4343b-6fa5-4ccf-bc1c-1e8880bd99a0")
 	)
 	(wire
 		(pts
@@ -3732,16 +3977,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 101.6) (xy 167.64 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ec45d85-5aa8-4570-be76-d8ae492b079d")
-	)
-	(wire
-		(pts
 			(xy 142.24 78.74) (xy 142.24 45.72)
 		)
 		(stroke
@@ -3872,13 +4107,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 86.36) (xy 109.22 88.9)
+			(xy 237.49 88.9) (xy 240.03 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84f2e057-3f54-4c36-b533-5f6ca4464536")
+		(uuid "835f667b-4b33-408c-beac-df3e4e4ee595")
+	)
+	(wire
+		(pts
+			(xy 241.3 93.98) (xy 245.11 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ba53f8-06ed-4313-bce2-a4c31a5349b0")
 	)
 	(wire
 		(pts
@@ -3899,26 +4144,6 @@
 			(type default)
 		)
 		(uuid "85c79c56-ab6d-4683-b815-0a796c32df25")
-	)
-	(wire
-		(pts
-			(xy 107.95 91.44) (xy 135.89 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "881656fe-1763-48b0-bd69-698d0280ec84")
-	)
-	(wire
-		(pts
-			(xy 231.14 88.9) (xy 231.14 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88a9d730-b11e-4abc-aeff-6355884400ef")
 	)
 	(wire
 		(pts
@@ -3972,6 +4197,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 83.82) (xy 241.3 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dd413fc-4dd4-42d8-9e0d-7b09500963f6")
+	)
+	(wire
+		(pts
 			(xy 220.98 71.12) (xy 220.98 78.74)
 		)
 		(stroke
@@ -3992,16 +4227,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 104.14) (xy 171.45 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92fcda96-95cc-4e13-a81d-d50b94812ee1")
-	)
-	(wire
-		(pts
 			(xy 110.49 27.94) (xy 116.84 27.94)
 		)
 		(stroke
@@ -4019,6 +4244,16 @@
 			(type default)
 		)
 		(uuid "9bdb5e43-bc6d-4750-b66e-3f266541c6fb")
+	)
+	(wire
+		(pts
+			(xy 241.3 86.36) (xy 241.3 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c391225-a788-4475-8327-1ec2b9a1b13d")
 	)
 	(wire
 		(pts
@@ -4182,16 +4417,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 114.3) (xy 162.56 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb946a7d-068d-4541-999e-8275068fed21")
-	)
-	(wire
-		(pts
 			(xy 149.86 105.41) (xy 149.86 106.68)
 		)
 		(stroke
@@ -4199,26 +4424,6 @@
 			(type default)
 		)
 		(uuid "bbfe5b5d-a051-447f-bc06-208ccb1705c1")
-	)
-	(wire
-		(pts
-			(xy 107.95 88.9) (xy 107.95 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdfdeee6-f340-4553-9ae4-d0ce440d3319")
-	)
-	(wire
-		(pts
-			(xy 135.89 104.14) (xy 171.45 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfebbee5-da46-4a6e-849b-072cb50ce38b")
 	)
 	(wire
 		(pts
@@ -4372,16 +4577,6 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 88.9) (xy 138.43 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df16f4cf-b60d-405d-a95d-dde981ad440a")
-	)
-	(wire
-		(pts
 			(xy 102.87 17.78) (xy 102.87 21.59)
 		)
 		(stroke
@@ -4462,16 +4657,6 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 86.36) (xy 231.14 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecd8f330-4e39-4ee8-89bb-f2b31d67ec8a")
-	)
-	(wire
-		(pts
 			(xy 58.42 66.04) (xy 62.23 66.04)
 		)
 		(stroke
@@ -4492,16 +4677,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 86.36) (xy 109.22 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee8c2b1f-09bb-4469-80eb-39f933a40a3e")
-	)
-	(wire
-		(pts
 			(xy 232.41 58.42) (xy 232.41 63.5)
 		)
 		(stroke
@@ -4519,16 +4694,6 @@
 			(type default)
 		)
 		(uuid "f0d7faab-61a3-4585-9fc1-532636b653f5")
-	)
-	(wire
-		(pts
-			(xy 138.43 101.6) (xy 167.64 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3e84a24-42fc-41d8-b9ad-1c03bce0de40")
 	)
 	(wire
 		(pts
@@ -4559,6 +4724,16 @@
 			(type default)
 		)
 		(uuid "f55361e5-e858-4bd4-b508-ea0f33ee530d")
+	)
+	(wire
+		(pts
+			(xy 245.11 93.98) (xy 245.11 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6717b4c-6394-4136-8375-5940b963bb43")
 	)
 	(wire
 		(pts
@@ -4960,17 +5135,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Antenna_Shield")
-		(at 236.22 86.36 270)
+		(lib_id "Connector:Conn_Coaxial")
+		(at 245.11 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1a35f759-b268-420c-946f-a2825e8d8f29")
-		(property "Reference" "AE1"
-			(at 242.57 85.6614 90)
+		(uuid "160c4ff9-a0a7-44f5-a8ca-f3f27cafa977")
+		(property "Reference" "J3"
+			(at 248.92 87.9231 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4978,8 +5153,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Antenna_Shield"
-			(at 242.57 88.2014 90)
+		(property "Value" "Conn_Coaxial"
+			(at 248.92 90.4631 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4987,8 +5162,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "antenna:antena1"
-			(at 238.76 86.36 0)
+		(property "Footprint" "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical"
+			(at 245.11 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,7 +5172,77 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 86.36 0)
+			(at 245.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 245.11 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4f2125d3-3903-4841-bee9-3fc5328687a2")
+		)
+		(pin "1"
+			(uuid "8574b2a8-ef99-401a-a0a8-9f5a34fc3f92")
+		)
+		(instances
+			(project ""
+				(path "/7e4087c3-8cfe-4a56-93d2-ee627c3b6019"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna_Shield")
+		(at 246.38 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a35f759-b268-420c-946f-a2825e8d8f29")
+		(property "Reference" "AE1"
+			(at 252.73 83.1214 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna_Shield"
+			(at 252.73 85.6614 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "antenna:antena1"
+			(at 248.92 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,7 +5251,7 @@
 			)
 		)
 		(property "Description" "Antenna with extra pin for shielding"
-			(at 236.22 86.36 0)
+			(at 246.38 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6146,7 +6391,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 92.71 0)
+		(at 245.11 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6155,7 +6400,7 @@
 		(fields_autoplaced yes)
 		(uuid "876c2794-ebbe-425b-a7df-401f423fc162")
 		(property "Reference" "#PWR014"
-			(at 231.14 99.06 0)
+			(at 245.11 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6164,7 +6409,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 97.1534 0)
+			(at 245.11 102.2334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6172,7 +6417,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 92.71 0)
+			(at 245.11 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6181,7 +6426,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 92.71 0)
+			(at 245.11 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6190,7 +6435,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 92.71 0)
+			(at 245.11 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6205,6 +6450,73 @@
 			(project "sensor_sigfox_1.2"
 				(path "/7e4087c3-8cfe-4a56-93d2-ee627c3b6019"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 237.49 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92de20f3-bad0-40b2-829b-14fc5b5d2c8d")
+		(property "Reference" "TP2"
+			(at 240.03 79.2479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 240.03 81.7879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 242.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 237.49 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72a3adb3-6cbe-4e7d-8345-972ac20c01a8")
+		)
+		(instances
+			(project "sensor_sigfox_1.2"
+				(path "/7e4087c3-8cfe-4a56-93d2-ee627c3b6019"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -6337,6 +6649,140 @@
 			(project "sensor_sigfox_1.2"
 				(path "/7e4087c3-8cfe-4a56-93d2-ee627c3b6019"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 227.33 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a8cb2fa2-b165-42e5-8a95-5b2c6894ec26")
+		(property "Reference" "TP1"
+			(at 232.41 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 232.41 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 227.33 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 227.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14d635dc-714b-449d-978a-07ef1fea0354")
+		)
+		(instances
+			(project ""
+				(path "/7e4087c3-8cfe-4a56-93d2-ee627c3b6019"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 237.49 88.9 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bbc8ae63-361b-4621-ae8b-c25adb274672")
+		(property "Reference" "TP3"
+			(at 240.03 90.9319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 240.03 93.4719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 232.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 237.49 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2280135-443e-41a8-896c-9f8e5eb71145")
+		)
+		(instances
+			(project "sensor_sigfox_1.2"
+				(path "/7e4087c3-8cfe-4a56-93d2-ee627c3b6019"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
